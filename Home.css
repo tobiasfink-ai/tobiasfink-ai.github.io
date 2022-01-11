@@ -100,20 +100,26 @@
 }
 
 .u-section-2 .u-layout-cell-2 {
-  min-height: 400px;
+  min-height: 700px;
 }
 
 .u-section-2 .u-container-layout-2 {
   padding: 30px;
 }
 
+.u-section-2 .u-rotation-parent-1 {
+  width: 255px;
+  height: 255px;
+  margin: 192px auto 0;
+}
+
 .u-section-2 .u-image-1 {
   width: 255px;
   height: 255px;
   object-position: 100% 10.78%;
-  background-image: url("images/Tobias_Fink_800x1000.png");
-  background-position: 100% 12.35%;
-  margin: 0 auto;
+  background-image: url("images/2022-01-10self.jpg");
+  background-position: 50% 50%;
+  box-shadow: -2px -2px 16px 2px rgba(204,211,219,1);
 }
 
 @media (max-width: 1199px) {
@@ -130,7 +136,17 @@
   }
 
   .u-section-2 .u-layout-cell-2 {
-    min-height: 330px;
+    min-height: 577px;
+  }
+
+  .u-section-2 .u-rotation-parent-1 {
+    width: 238px;
+    height: 221px;
+  }
+
+  .u-section-2 .u-image-1 {
+    width: 238px;
+    height: 238px;
   }
 }
 
@@ -144,7 +160,17 @@
   }
 
   .u-section-2 .u-layout-cell-2 {
-    min-height: 253px;
+    min-height: 442px;
+  }
+
+  .u-section-2 .u-rotation-parent-1 {
+    width: 168px;
+    height: 151px;
+  }
+
+  .u-section-2 .u-image-1 {
+    width: 168px;
+    height: 168px;
   }
 }
 
@@ -199,7 +225,7 @@
 }
 
 .u-section-3 .u-text-2 {
-  margin: 30px 0 0;
+  margin: 30px 980px 0 0;
 }
 
 .u-section-3 .u-table-2 {
@@ -221,7 +247,7 @@
 }
 
 .u-section-3 .u-text-3 {
-  margin: 30px 0 0;
+  margin: 30px 946px 0 0;
 }
 
 .u-section-3 .u-table-3 {
@@ -243,8 +269,16 @@
     width: 940px;
   }
 
+  .u-section-3 .u-text-2 {
+    margin-right: 780px;
+  }
+
   .u-section-3 .u-table-2 {
     width: 940px;
+  }
+
+  .u-section-3 .u-text-3 {
+    margin-right: 746px;
   }
 
   .u-section-3 .u-table-3 {
@@ -257,8 +291,16 @@
     width: 720px;
   }
 
+  .u-section-3 .u-text-2 {
+    margin-right: 560px;
+  }
+
   .u-section-3 .u-table-2 {
     width: 720px;
+  }
+
+  .u-section-3 .u-text-3 {
+    margin-right: 526px;
   }
 
   .u-section-3 .u-table-3 {
@@ -271,8 +313,16 @@
     width: 540px;
   }
 
+  .u-section-3 .u-text-2 {
+    margin-right: 380px;
+  }
+
   .u-section-3 .u-table-2 {
     width: 540px;
+  }
+
+  .u-section-3 .u-text-3 {
+    margin-right: 346px;
   }
 
   .u-section-3 .u-table-3 {
@@ -285,8 +335,16 @@
     width: 340px;
   }
 
+  .u-section-3 .u-text-2 {
+    margin-right: 180px;
+  }
+
   .u-section-3 .u-table-2 {
     width: 340px;
+  }
+
+  .u-section-3 .u-text-3 {
+    margin-right: 146px;
   }
 
   .u-section-3 .u-table-3 {
